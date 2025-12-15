@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "DevOps Roadmap 2024 - How to become a DevOps Engineer?",
+        "description": "The most complete DevOps Roadmap for 2024. A step by step guide on how to become a DevOps Engineer.",
+        "thumbnail": "https://img.youtube.com/vi/9pZ2xmsSDdo/maxresdefault.jpg",
+        "videoUrl": "https://www.youtube.com/watch?v=9pZ2xmsSDdo",
+        "tags": [
+            "Career",
+            "Roadmap",
+            "DevOps"
+        ],
+        "date": "2024-01-15"
+    },
+    {
+        "id": 2,
+        "title": "Docker Tutorial for Beginners",
+        "description": "Learn Docker for beginners in this full course. Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers.",
+        "thumbnail": "https://img.youtube.com/vi/3c-iBn73dDE/maxresdefault.jpg",
+        "videoUrl": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+        "tags": [
+            "Docker",
+            "Containers",
+            "DevOps"
+        ],
+        "date": "2023-11-20"
+    },
+    {
+        "id": 3,
+        "title": "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]",
+        "description": "Kubernetes tutorial for beginners - Learn how to deploy and manage containerized applications with Kubernetes.",
+        "thumbnail": "https://img.youtube.com/vi/X48VuDVv0do/maxresdefault.jpg",
+        "videoUrl": "https://www.youtube.com/watch?v=X48VuDVv0do",
+        "tags": [
+            "Kubernetes",
+            "Orchestration",
+            "Cloud"
+        ],
+        "date": "2023-09-10"
+    },
+    {
+        "id": 4,
+        "title": "Jenkins Tutorial for Beginners",
+        "description": "Jenkins is the most popular open source CI/CD tool. Learn how to use Jenkins in this full course for beginners.",
+        "thumbnail": "https://img.youtube.com/vi/FX322RVNGj4/maxresdefault.jpg",
+        "videoUrl": "https://www.youtube.com/watch?v=FX322RVNGj4",
+        "tags": [
+            "Jenkins",
+            "CI/CD",
+            "Automation"
+        ],
+        "date": "2023-08-05"
+    },
+    {
+        "id": 5,
+        "title": "Terraform Tutorial for Beginners",
+        "description": "Learn Terraform for beginners. Terraform is an open-source infrastructure as code software tool.",
+        "thumbnail": "https://img.youtube.com/vi/YcJV9eA9c9c/maxresdefault.jpg",
+        "videoUrl": "https://www.youtube.com/watch?v=YcJV9eA9c9c",
+        "tags": [
+            "Terraform",
+            "IaC",
+            "Cloud"
+        ],
+        "date": "2023-07-12"
+    },
+    {
+        "id": 6,
+        "title": "Ansible 101 - The Basics",
+        "description": "Learn Ansible for beginners. Ansible is an open-source software provisioning, configuration management, and application-deployment tool.",
+        "thumbnail": "https://img.youtube.com/vi/goclfp6a2IQ/maxresdefault.jpg",
+        "videoUrl": "https://www.youtube.com/watch?v=goclfp6a2IQ",
+        "tags": [
+            "Ansible",
+            "Configuration Management",
+            "Automation"
+        ],
+        "date": "2023-06-25"
+    }
+]

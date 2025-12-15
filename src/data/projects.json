@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Cloud Native E-Commerce Platform",
+        "description": "Designed and deployed a highly scalable microservices-based e-commerce platform using Kubernetes on AWS. Implemented auto-scaling policies and zero-downtime deployments.",
+        "techStack": [
+            "Kubernetes",
+            "AWS EKS",
+            "Terraform",
+            "Jenkins"
+        ],
+        "githubUrl": "https://github.com/example/ecommerce-k8s",
+        "liveUrl": "https://demo-ecommerce.example.com",
+        "image": "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 2,
+        "title": "Automated CI/CD Pipeline for FinTech App",
+        "description": "Built a robust CI/CD pipeline for a FinTech application, reducing deployment time by 60%. Integrated security scanning and automated testing stages.",
+        "techStack": [
+            "GitLab CI",
+            "Docker",
+            "Sonarqube",
+            "Python"
+        ],
+        "githubUrl": "https://github.com/example/fintech-cicd",
+        "liveUrl": null,
+        "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": 3,
+        "title": "Serverless Data Processing Pipeline",
+        "description": "Architected a serverless data pipeline to process 1TB+ logs daily. Used AWS Lambda and Kinesis for real-time analytics and dashboarding.",
+        "techStack": [
+            "AWS Lambda",
+            "Python",
+            "DynamoDB",
+            "Kinesis"
+        ],
+        "githubUrl": "https://github.com/example/serverless-analytics",
+        "liveUrl": "https://analytics.example.com",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    }
+]
