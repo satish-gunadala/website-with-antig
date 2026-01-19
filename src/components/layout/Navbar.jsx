@@ -19,7 +19,7 @@ const Navbar = () => {
     const inactiveLinkClass = "text-gray-600 hover:text-primary hover:bg-gray-50 rounded-md px-3 py-2 text-sm font-medium transition-colors";
 
     return (
-        <nav className="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
+        <nav className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-32">
                     <div className="flex">
@@ -69,7 +69,7 @@ const Navbar = () => {
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
-                        className="md:hidden overflow-hidden bg-white border-b border-gray-100"
+                        className="md:hidden overflow-hidden bg-white border-b border-gray-200"
                     >
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                             {navItems.map((item) => (

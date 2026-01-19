@@ -7,9 +7,9 @@ export default {
     theme: {
         extend: {
             colors: {
-                primary: "#10B981", // Emerald 500
-                secondary: "#475569", // Slate 600
-                background: "#F8FAFC", // Slate 50
+                primary: "#0EA5E9", // Skyblue
+                secondary: "#86EFAC", // Light Green
+                background: "#FFFFFF", // White
                 surface: "#FFFFFF",
             },
             fontFamily: {

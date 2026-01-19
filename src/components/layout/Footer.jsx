@@ -2,15 +2,15 @@ import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
+        <footer className="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
                         <h3 className="text-white text-lg font-bold mb-4 flex items-center gap-2">
                             DevOps<span className="text-primary">Mastery</span>
-                            <span className="text-xs text-slate-400 font-normal ml-1">by Satish Gunadala</span>
+                            <span className="text-xs text-gray-400 font-normal ml-1">by Satish Gunadala</span>
                         </h3>
-                        <p className="text-sm text-slate-400 max-w-xs">
+                        <p className="text-sm text-gray-400 max-w-xs">
                             Empowering developers and sysadmins to master the cloud native ecosystem. From zero to hero in DevOps.
                         </p>
                     </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                                 <Twitter size={20} />
                             </a>
                         </div>
-                        <p className="mt-4 text-xs text-slate-500">
+                        <p className="mt-4 text-xs text-gray-500">
                             © {new Date().getFullYear()} DevOpsMastery. All rights reserved.
                         </p>
                     </div>

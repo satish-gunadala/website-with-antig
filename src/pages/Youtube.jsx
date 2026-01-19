@@ -23,11 +23,11 @@ const YouTube = () => {
     }, [activeCategory]);
 
     return (
-        <div className="bg-slate-50 min-h-screen py-16">
+        <div className="bg-white min-h-screen py-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h1 className="text-3xl font-bold text-slate-900 mb-4">YouTube Tutorials</h1>
-                    <p className="text-slate-600 max-w-2xl mx-auto">
+                    <h1 className="text-3xl font-bold text-gray-900 mb-4">YouTube Tutorials</h1>
+                    <p className="text-gray-600 max-w-2xl mx-auto">
                         Free high-quality tutorials to get you started with DevOps and Cloud Native technologies.
                     </p>
                 </div>
@@ -49,7 +49,7 @@ const YouTube = () => {
 
                 {filteredVideos.length === 0 && (
                     <div className="text-center py-20">
-                        <p className="text-slate-500">No videos found for this category.</p>
+                        <p className="text-gray-500">No videos found for this category.</p>
                     </div>
                 )}
             </div>

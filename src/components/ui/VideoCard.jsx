@@ -5,7 +5,7 @@ const VideoCard = ({ video }) => {
     return (
         <motion.div
             whileHover={{ y: -5 }}
-            className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-md transition-shadow flex flex-col h-full"
+            className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col h-full"
         >
             <div className="relative group">
                 <img
@@ -28,17 +28,17 @@ const VideoCard = ({ video }) => {
             <div className="p-5 flex flex-col flex-grow">
                 <div className="flex gap-2 mb-3 flex-wrap">
                     {video.tags.map(tag => (
-                        <span key={tag} className="text-xs font-semibold px-2 py-1 bg-blue-50 text-blue-600 rounded-md">
+                        <span key={tag} className="text-xs font-semibold px-2 py-1 bg-sky-50 text-sky-600 rounded-md">
                             {tag}
                         </span>
                     ))}
                 </div>
 
-                <h3 className="font-bold text-slate-900 text-lg mb-2 line-clamp-2">{video.title}</h3>
-                <p className="text-slate-500 text-sm mb-4 line-clamp-3">{video.description}</p>
+                <h3 className="font-bold text-gray-900 text-lg mb-2 line-clamp-2">{video.title}</h3>
+                <p className="text-gray-500 text-sm mb-4 line-clamp-3">{video.description}</p>
 
-                <div className="mt-auto flex items-center justify-between pt-4 border-t border-slate-100">
-                    <div className="flex items-center text-slate-400 text-xs gap-1">
+                <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-200">
+                    <div className="flex items-center text-gray-400 text-xs gap-1">
                         <Calendar size={14} />
                         <span>{new Date(video.date).toLocaleDateString()}</span>
                     </div>

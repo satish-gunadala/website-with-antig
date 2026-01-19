@@ -9,7 +9,7 @@ const FilterBar = ({ categories, activeCategory, onSelect }) => {
                     onClick={() => onSelect(category)}
                     className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${activeCategory === category
                             ? 'bg-primary text-white shadow-md'
-                            : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-200'
+                            : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
                         }`}
                 >
                     {category}
